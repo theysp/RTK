@@ -9,7 +9,7 @@
 #include <itkImageRegionSplitterDirection.h>
 
 /**
- * \file rtkfdkprojweightcompcudatest.cxx
+ * \file rtkFDKProjWeightCompCudaTest.cxx
  *
  * \brief Test rtk::CudaFDKWeightProjectionFilter vs rtk::FDKWeightProjectionFilter
  *
@@ -20,7 +20,7 @@
  */
 
 int
-main(int, char **)
+rtkFDKProjWeightCompCudaTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using OutputPixelType = float;

@@ -8,7 +8,7 @@
 #include <itkStreamingImageFilter.h>
 
 /**
- * \file rtkdisplaceddetectorcompcudatest.cxx
+ * \file rtkDisplacedDetectorCompOffsetTest.cxx
  *
  * \brief Test rtk::CudaDisplacedDetectorImageFilter vs rtk::DisplacedDetectorImageFilter
  *
@@ -19,7 +19,7 @@
  */
 
 int
-main(int, char **)
+rtkDisplacedDetectorCompOffsetTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using OutputPixelType = float;

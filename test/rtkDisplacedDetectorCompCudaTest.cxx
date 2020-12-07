@@ -8,7 +8,7 @@
 #include <itkImageRegionSplitterDirection.h>
 
 /**
- * \file rtkdisplaceddetectorcompcudatest.cxx
+ * \file rtkDisplacedDetectorCompCudaTest.cxx
  *
  * \brief Test rtk::CudaDisplacedDetectorImageFilter vs rtk::DisplacedDetectorImageFilter
  *
@@ -19,7 +19,7 @@
  */
 
 int
-main(int, char **)
+rtkDisplacedDetectorCompCudaTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using OutputPixelType = float;

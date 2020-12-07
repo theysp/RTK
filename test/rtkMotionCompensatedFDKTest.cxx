@@ -11,7 +11,7 @@
 #include "rtkCyclicDeformationImageFilter.h"
 
 /**
- * \file rtkmotioncompensatedfdktest.cxx
+ * \file rtkMotionCompensatedFDKTest.cxx
  *
  * \brief Functional tests for classes performing a motion compensated FDK
  * reconstruction.
@@ -25,7 +25,7 @@
  */
 
 int
-main(int, char **)
+rtkMotionCompensatedFDKTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using OutputPixelType = float;

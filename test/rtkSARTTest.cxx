@@ -11,7 +11,7 @@
 #include "rtkSARTConeBeamReconstructionFilter.h"
 
 /**
- * \file rtksarttest.cxx
+ * \file rtkSARTTest.cxx
  *
  * \brief Functional test for SART reconstruction
  *
@@ -24,7 +24,7 @@
  */
 
 int
-main(int, char **)
+rtkSARTTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using OutputPixelType = float;

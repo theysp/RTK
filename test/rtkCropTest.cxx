@@ -2,12 +2,12 @@
 #include "rtkCudaCropImageFilter.h"
 
 /**
- * \file rtkcroptest.cxx
+ * \file rtkCropTest.cxx
  * \brief Functional test for the classes performing crop filtering
  * \author Julien Jomier
  */
 int
-main(int, char **)
+rtkCropTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using PixelType = float;

@@ -6,7 +6,7 @@
 #include <itkRegularExpressionSeriesFileNames.h>
 
 /**
- * \file rtkbioscantest.cxx
+ * \file rtkBioscanTest.cxx
  *
  * \brief Functional tests for classes managing Bioscan NanoSPECT/CT data
  *
@@ -16,7 +16,7 @@
  */
 
 int
-main(int argc, char * argv[])
+rtkBioscanTest(int argc, char * argv[])
 {
   if (argc < 3)
   {

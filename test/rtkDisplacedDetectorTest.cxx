@@ -12,7 +12,7 @@
 #endif
 
 /**
- * \file rtkdisplaceddetectortest.cxx
+ * \file rtkDisplacedDetectorTest.cxx
  *
  * \brief Functional test for classes performing FDK reconstructions with a
  * displaced detector/source
@@ -26,7 +26,7 @@
  */
 
 int
-main(int, char **)
+rtkDisplacedDetectorTest(int, char* [])
 {
   constexpr unsigned int Dimension = 3;
   using OutputPixelType = float;
