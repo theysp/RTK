@@ -67,6 +67,7 @@ set_directory_properties(PROPERTIES COMPILE_DEFINITIONS "${defComSansVTK}")
 #=========================================================
 if (RTK_USE_CUDA)
   set(RTK_CUDA_FILES
+    rtkBackProjectionImageFilter.cxx
     rtkCudaAverageOutOfROIImageFilter.cu
     rtkCudaBackProjectionImageFilter.cu
     rtkCudaConjugateGradientImageFilter.cu
